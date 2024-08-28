@@ -1,3 +1,13 @@
+variable "access_key" {
+  type        = string
+  sensitive = true
+}
+
+variable "secret_key" {
+  type        = string
+  sensitive = true
+}
+
 variable "create_table" {
   description = "Controls if DynamoDB table and associated resources are created"
   type        = bool
