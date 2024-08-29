@@ -6,7 +6,7 @@
 #######################################################################################################
 
 module "dynamodb_table_01" {
-  source = "../../"
+  source = "../.."
   # source = "git::git@ssh.dev.azure.com:v3/petronasvsts/PETRONAS_AWS_IAC_Module/terraform-aws-dynamodb?ref=v5.0-latest"
 
   create_table        = true
